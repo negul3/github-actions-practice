@@ -20,4 +20,4 @@ jobs:
       - run: bats -v
       - run: echo "힘내에ㅔㅔㅔㅔㅔㅔㅔㅔㅔㅔㅔㅔ"
       - run: echo "${{github.actor}}"
-      - run: ech "${{github.event_name}} event에 의해 자동으로 실행됨"
+      - run: echo "${{github.event_name}} event에 의해 자동으로 실행됨"
